@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name_et">Nombre</string>
+    <string name="toppings_tv">Ingredientes</string>
+    <string name="whipped_cream_cb">Crema batida</string>
+    <string name="chocolate_cb">Chocolate</string>
+    <string name="quantity_tv">Cantidad</string>
+    <string name="order_btn">Ordenar</string>
+    <string name="app_name">pedidos de café</string>
+    <string name="name_tv">"introduzca su nombre: "</string>
+    <string name="order_summary">resumen del pedido</string>
+    <string name="add_whipped_cream">"Agregue la crema batida? "</string>
+    <string name="add_chocolate">"Agregue el chocolate? "</string>
+    <string name="total">"Total: "</string>
+    <string name="thank_you">¡Gracias!</string>
+    <string name="coffee_order_for">"orden de cafe para "</string>
+    <string name="quantity">Quantité</string>
+    <string name="name_order_summary">"Nombre: "</string>
+</resources>
