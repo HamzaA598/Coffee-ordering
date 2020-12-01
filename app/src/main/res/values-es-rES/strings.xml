@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">pedidos de café</string>
+    <string name="name_tv">"introduzca su nombre: "</string>
     <string name="name_et">Nombre</string>
+    <string name="quantity_tv">Cantidad</string>
     <string name="toppings_tv">Ingredientes</string>
     <string name="whipped_cream_cb">Crema batida</string>
     <string name="chocolate_cb">Chocolate</string>
-    <string name="quantity_tv">Cantidad</string>
     <string name="order_btn">Ordenar</string>
-    <string name="app_name">pedidos de café</string>
-    <string name="name_tv">"introduzca su nombre: "</string>
     <string name="order_summary">resumen del pedido</string>
     <string name="add_whipped_cream">"Agregue la crema batida? "</string>
     <string name="add_chocolate">"Agregue el chocolate? "</string>
@@ -16,4 +16,8 @@
     <string name="coffee_order_for">"orden de cafe para "</string>
     <string name="quantity">Quantité</string>
     <string name="name_order_summary">"Nombre: "</string>
+    <string name="no_less">"Lo siento, no puedes pedir menos café"</string>
+    <string name="no_more">"Lo siento, no puedes pedir más café"</string>
+    <string name="ordering">"Ordenando…"</string>
+    <string name="pls_enter_name">"¡Por favor, escribe tu nombre primero!"</string>
 </resources>

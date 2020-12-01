@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">unknown</string>
+    <string name="app_name">Commande de café</string>
     <string name="name_tv">Ecrire ton nom</string>
     <string name="name_et">Nom</string>
+    <string name="quantity_tv">Quantité</string>
     <string name="toppings_tv">Les extras</string>
     <string name="whipped_cream_cb">Un nuage de lait</string>
     <string name="chocolate_cb">Chocolat</string>
-    <string name="quantity_tv">Quantité</string>
     <string name="order_btn">Commander</string>
+    <string name="order_summary">Récapitulatif de la commande</string>
     <string name="add_whipped_cream">"Avec un nuage de lait? "</string>
     <string name="add_chocolate">"Avec du chocolat ? "</string>
     <string name="total">"Total: "</string>
     <string name="thank_you">merci!</string>
-    <string name="order_summary">unknown</string>
-    <string name="coffee_order_for">unknown</string>
+    <string name="coffee_order_for">Commande de café pour</string>
     <string name="quantity">Quantité</string>
     <string name="name_order_summary">"Nom: "</string>
+    <string name="no_less">"Désolé, vous ne pouvez pas commander moins de café"</string>
+    <string name="no_more">"Désolé, vous ne pouvez pas commander plus de café"</string>
+    <string name="ordering">"Commande…"</string>
+    <string name="pls_enter_name">"S’il vous plaît entrez votre nom en premier!"</string>
 </resources>

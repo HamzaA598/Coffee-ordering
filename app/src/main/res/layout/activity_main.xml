@@ -11,11 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:layout_marginTop="50dp"
         tools:context=".MainActivity">
-
-        <TextView
-            style="@style/headlines"
-            android:text="" />
 
         <android.support.design.widget.TextInputLayout
             android:id="@+id/input_layout_name"
@@ -36,14 +33,16 @@
             style="@style/headlines"
             android:layout_marginLeft="16dp"
             android:layout_marginBottom="16dp"
-            android:text="@string/quantity_tv" />
+            android:text="@string/quantity_tv"
+            android:layout_marginStart="16dp" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:layout_marginBottom="16dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginStart="16dp">
 
             <Button
                 android:id="@+id/decreaseBtn"

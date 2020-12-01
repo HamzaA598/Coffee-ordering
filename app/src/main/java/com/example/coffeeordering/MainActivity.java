@@ -45,10 +45,10 @@ public class MainActivity extends AppCompatActivity {
                 if(quantity != 1)
                 {
                     quantity -= 1;
-                    mQuantityTV.setText("" + quantity);
+                    mQuantityTV.setText(String.valueOf(quantity));
                 }
-                else if(quantity == 1)
-                    Toast("Sorry, you can't order less coffee");
+                else
+                    Toast(getString(R.string.no_less));
             }
         });
         mIncreaseBtn.setOnClickListener(new View.OnClickListener() {
@@ -57,17 +57,17 @@ public class MainActivity extends AppCompatActivity {
                 if(quantity != 10)
                 {
                     quantity += 1;
-                    mQuantityTV.setText("" + quantity);
+                    mQuantityTV.setText(String.valueOf(quantity));
                 }
-                else if(quantity == 10)
-                    Toast("Sorry, you can't order more coffee");
+                else
+                    Toast(getString(R.string.no_more));
             }
         });
 
         mOrderBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int price = 5;
+                int totalPrice = quantity*3;
                 String name = mNameET.getText().toString();
                 boolean creamState = mCreamCB.isChecked();
                 boolean chocolateState = mChocolateCB.isChecked();
@@ -77,13 +77,13 @@ public class MainActivity extends AppCompatActivity {
                 {
                     if(creamState)
                     {
-                        price+=1;
+                        totalPrice+=quantity;
                         sCreamState = "yes";
                     }
 
                     if(chocolateState)
                     {
-                        price+=2;
+                        totalPrice+=2*quantity;
                         sChocolateState = "yes";
                     }
 
@@ -95,15 +95,15 @@ public class MainActivity extends AppCompatActivity {
                             + "\n" + getString(R.string.quantity) + quantity
                             + "\n" + getString(R.string.add_whipped_cream) + sCreamState
                             + "\n" + getString(R.string.add_chocolate) + sChocolateState
-                            + "\n" + getString(R.string.total) + (price * quantity)
+                            + "\n" + getString(R.string.total) + (totalPrice)
                             + "\n" + getString(R.string.thank_you));
                     if (intent.resolveActivity(getPackageManager()) != null) {
                         startActivity(intent);
-                        Toast("Ordering...");
+                        Toast(getString(R.string.ordering));
                     }
                 }
-                else if(name.equals(""))
-                    Toast("Please enter your name first!");
+                else
+                    Toast(getString(R.string.pls_enter_name));
 
             }
         });

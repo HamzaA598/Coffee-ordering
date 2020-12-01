@@ -16,5 +16,8 @@
     <string name="coffee_order_for">"coffee order for "</string>
     <string name="quantity">"Quantity: "</string>
     <string name="name_order_summary">"Name: "</string>
-
+    <string name="no_less">"Sorry, you can't order less coffee"</string>
+    <string name="no_more">"Sorry, you can't order more coffee"</string>
+    <string name="ordering">"Ordering…"</string>
+    <string name="pls_enter_name">"Please enter your name first!"</string>
 </resources>
